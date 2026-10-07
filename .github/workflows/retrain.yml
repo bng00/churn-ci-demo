@@ -24,8 +24,8 @@ jobs:
         env:
           TOKEN: ${{ secrets.REGISTRY_TOKEN }}
         run: echo "publishing with token $TOKEN"
-      - name: Something breaks
-        run: exit 1
+#      - name: Something breaks
+#        run: exit 1
       - name: Save metrics
         if: always()
         uses: actions/upload-artifact@v4
