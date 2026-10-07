@@ -1,0 +1,1 @@
+![CI](https://github.com/bng00/churn-ci-demo/actions/workflows/ci.yml/badge.svg)
